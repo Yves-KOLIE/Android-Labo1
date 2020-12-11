@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bank"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<Button
+    android:id="@+id/creationCompte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Créer un compte"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+<Button
+    android:id="@+id/supprimerCompte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Supprimmer un compte"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+<Button
+    android:id="@+id/modifierCompte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Modifier un compte"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+<Button
+    android:id="@+id/infosCompte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Informations d'un compte"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+    <Button
+    android:id="@+id/listeCompteDelinquant"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Liste des comptes délinquants"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+
+<Button
+    android:id="@+id/modifierCreditCompte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Modification du crédit"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+<Button
+    android:id="@+id/modifierSoldeCompte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Modification du solde"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:fontFamily="Roboto italic"
+    android:background="#008CBA"
+    android:textColor="#FFFFFF">
+</Button>
+
+
+</LinearLayout>

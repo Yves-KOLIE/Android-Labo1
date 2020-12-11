@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".suppression_compte"
+    android:background="@drawable/bank"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:background="#FFFFFF"
+        android:hint="Saisissez votre adresse email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:hint="Saississez votre mot de passe"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/suppression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supprimer le compte"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="Roboto italic"
+        android:background="#008CBA"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

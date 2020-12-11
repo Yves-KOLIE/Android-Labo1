@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".modification_credit"
+    android:background="@drawable/bank"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modification du crédit"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF">
+    </TextView>
+
+
+</LinearLayout>
